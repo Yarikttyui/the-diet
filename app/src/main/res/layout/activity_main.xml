@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:baselineAligned="false">
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Название продукта"
+        android:background="@android:drawable/editbox_background"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <EditText
+        android:id="@+id/gramsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Сколько грамм?"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_background"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/addMealButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Добавить"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Общие калории: 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>
